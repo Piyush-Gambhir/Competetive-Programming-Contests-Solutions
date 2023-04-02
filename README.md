@@ -1,5 +1,5 @@
 # Competitive Programming Contests Solutions
-This repository contains solutions to the problems of CodeChef contests.
+This repository contains solutions to the problems of various coding contests.
 
 ## How To Contribute
 1. Fork this repository.
