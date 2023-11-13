@@ -1,1 +1,5 @@
-// Java code for Day 18 - IND vs NZ - Transmutation
+public class Solution {
+    static int transmutation(int x, int k, int y, int m) {
+        // Write your code here.
+    }
+}

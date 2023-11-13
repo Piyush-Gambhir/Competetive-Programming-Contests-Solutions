@@ -1,1 +1,5 @@
-// Java code for Day 17 - ENG vs SA - Fan Wars
+public class Solution {
+    static int armyAssimilation(int n, int[] a, int[] c) {
+        // Write your code here.
+    }
+}

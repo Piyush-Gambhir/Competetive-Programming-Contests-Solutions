@@ -1,1 +1,5 @@
-// Java code for Day 17 - NED vs SL - New Stadium
+public class Solution {
+    static int buildingBuilder(int n, int []a) {
+        // Write your code here.
+    }
+}

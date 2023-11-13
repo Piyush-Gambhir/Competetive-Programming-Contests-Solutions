@@ -1,1 +1,5 @@
-// Java code for Day 16 - AUS vs PAK - Playing With Speed
+public class Solution {
+    static int playingWithSpeed(int x, int k) {
+        // Write your code here.
+    }
+}

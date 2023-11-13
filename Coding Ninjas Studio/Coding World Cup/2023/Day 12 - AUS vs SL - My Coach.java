@@ -1,1 +1,5 @@
-// Java code for Day 12 - AUS vs SL - My Coach
+public class Solution  {
+    public static int calculateDistance(int n, int []a) {
+        // Write your code here.
+    }
+}

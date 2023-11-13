@@ -1,1 +1,5 @@
-// Java code for Day 20 - SA vs BAN - Training Minutes
+public class Solution {
+    static int godOfThunder(int n, int[] a) {
+        // Write your code here.
+    }
+}

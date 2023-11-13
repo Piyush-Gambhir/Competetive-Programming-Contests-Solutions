@@ -3,20 +3,14 @@ import java.io.*;
 
 public class Solution {
     static String stringOperation(String s, int k) {
-        // Write your code here.
-        Set<Character> vowels = new HashSet<>(Arrays.asList('a', 'e', 'i', 'o', 'u'));
-        int changesNeeded = 0;
+        int operations = 0;
 
-        for (int i = 0; i < s.length(); i++) {
-            if (!vowels.contains(s.charAt(i))) {
-                changesNeeded++;
+        for (char c : s.toCharArray()) {
+            if (c != 'a' && c != 'e' && c != 'i' && c != 'o' && c != 'u') {
+                operations++;
             }
         }
 
-        if (changesNeeded <= k && k <= s.length()) {
-            return "YES";
-        } else {
-            return "NO";
-        }
+        return (operations == k) ? "YES" : "NO";
     }
 }

@@ -1,27 +1,23 @@
-public class Solution {
+
+}public class Solution {
     static int removeBulbs(int[] a) {
-        // Write your code here.
+        int n = a.length;
+        int left = 0;
+        int right = n - 1;
+
+        while (a[left] == 0 || a[right] == 0) {
+            if (a[left] == 0)
+                left++;
+            if (a[right] == 0)
+                right--;
+        }
 
         int count = 0;
-        int i = 0;
-        while (i < a.length) {
-            if (a[i] == 1) {
-                i++;
-                continue;
-            }
-
-            int j = i;
-            while (j < a.length && a[j] == 0) {
-                j++;
-            }
-
-            if (j == a.length) {
-                break;
-            }
-            int zeroCount = j - i;
-            count += zeroCount - 1;
-            i = j;
+        for (int i = left; i <= right; i++) {
+            if (a[i] == 0)
+                count++;
         }
+
         return count;
     }
 }

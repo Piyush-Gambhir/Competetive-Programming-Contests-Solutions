@@ -1,1 +1,5 @@
-// Java code for Day 3 - SA v SL - Lineup Proficiency
+public class Solution {
+    static int buildingBuilder(int n, int[] a) {
+        // Write your code here.
+    }
+}

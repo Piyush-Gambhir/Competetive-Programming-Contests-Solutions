@@ -1,1 +1,6 @@
-// Java code for Day 17 - ENG VS SA - Gear Selection
+public class Solution {
+    static int gearSelection(int n) {
+        int count = n * (n - 1) / 2;
+        return 2 * count;
+    }
+}

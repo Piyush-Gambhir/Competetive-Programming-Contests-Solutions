@@ -1,1 +1,5 @@
-// Java code for Day 15 - IND vs BAN - Extra Runs
+public class Solution {
+    static long extraRuns(int n, int m, int x) {
+        // Write your code here.
+    }
+}

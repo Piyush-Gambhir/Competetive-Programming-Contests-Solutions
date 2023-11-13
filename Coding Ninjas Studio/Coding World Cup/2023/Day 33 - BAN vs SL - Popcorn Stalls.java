@@ -1,1 +1,5 @@
-// Java code for Day 33 - BAN vs SL - Popcorn Stalls
+public class Solution {
+    static int isAbleToPlace(int n, int k, int []a) {
+        // Write your code here.
+    }
+}

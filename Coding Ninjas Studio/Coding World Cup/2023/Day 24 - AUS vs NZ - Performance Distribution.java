@@ -1,1 +1,5 @@
-// Java code for Day 24 - AUS vs NZ - Performance Distribution
+public class Solution {
+    static int maxGroups(int []a) {
+        // Write your code here.
+    }
+}

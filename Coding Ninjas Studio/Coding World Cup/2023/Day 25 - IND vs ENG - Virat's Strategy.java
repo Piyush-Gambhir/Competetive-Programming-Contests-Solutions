@@ -1,1 +1,5 @@
-// Java code for Day 25 - IND vs ENG - Virat's Strategy
+public class Solution  {
+    public static int maximumAmongMinimum(int n, int x, int y, int []a) {
+        // Write your code here.
+    }
+}

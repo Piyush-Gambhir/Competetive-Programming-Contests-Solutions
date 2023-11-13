@@ -1,1 +1,5 @@
-// Java code for Day 22 - ENG vs SL - Team formation
+public class Solution {
+    static int bFromA(String a, String b) {
+        // Write your code here.
+    }
+}

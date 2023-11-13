@@ -1,1 +1,23 @@
-// Java code for Day 26 - AFG vs SL - Remove Matches
+import java.util.HashMap;
+import java.util.Map;
+
+public class Solution {
+    static int countElements(int x, int[] a) {
+        // Write your code here.
+        int maxRemove = 0;
+        int n = a.length;
+        Map<Integer, Integer> countMap = new HashMap<>();
+        for (int i = 0; i < n; i++) {
+            int score = a[i];
+            int count = countMap.getOrDefault(score, 0);
+            if (count < x) {
+                countMap.put(score, count + 1);
+                maxRemove++;
+            }
+            if (count == x)
+                break;
+        }
+
+        return maxRemove;
+    }
+}
